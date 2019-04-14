@@ -9,10 +9,9 @@ services:
       - "443:443"
     volumes:
       - "/var/run/docker.sock:/tmp/docker.sock:ro"
-      # volumes para o letsencrypt
       - "/etc/nginx/vhost.d"
       - "/usr/share/nginx/html"
-#      - "/etc/nginx/certs"
+      - "/etc/nginx/certs"
 
   letsencrypt:
     container_name: letsencrypt
