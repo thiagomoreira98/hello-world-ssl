@@ -1,0 +1,12 @@
+{
+  "name": "heelo-word-ssl",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "node web-server.js"
+  },
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
